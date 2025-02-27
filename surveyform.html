@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/survey_form/style1.css">
+        <title>
+            Personal Survey Form
+        </title>
+    </head>
+    <body>
+        <div class="card"> 
+            <label for="name" id="name">
+                NAME: 
+            </label><br>
+            <input type="text" id="name" placeholder="enter your name"><br><br>
+
+
+            <label for="email" id="email">
+                EMAIL:
+            </label><br>
+            <input type="email" id="email" placeholder="enter your email id"><br><br>
+
+
+            <label for="age" id="age">
+                AGE:
+            </label><br>
+            <input type="integer" id="age" placeholder="enter your age"><br><br>
+
+
+            <label for="about" id ="about">
+                WHICH OPTION BEST DESCRIBES YOU?
+            </label><br>
+            <select name="about" id="about">
+                <option value="student">STUDENT</option>
+                <option value="ntern">INTERN</option>
+                <option value="professional">PROFESSIONAL</option>
+                <option value="other">OTHER</option>
+            </select><br><br>
+
+
+            <label> Would you recommend this survey to your friends?</label><br>
+            <label for="r1">
+                <input type="radio" id="r1" name="r1">Yes<br>
+            </label>
+            <label for="r2">
+                <input type="radio" id="r2" name="r1">No<br>
+            </label>
+            <label for="r3">
+                <input type="radio" id="r3" name="r1">Maybe
+            </label><br><br><br>
+
+
+            <label> Which of the following languages and frameworks do you know?(click as many as applicable)</label><br>
+            <label for="o1">
+                <input type="radio" id="o1" name="o1">C<br>
+                <input type="radio" id="o2" name="o2">C++<br>
+                <input type="radio" id="o3" name="o3">C#<br>
+                <input type="radio" id="o4" name="o4">java<br>
+                <input type="radio" id="o5" name="o5">Python<br>
+                <input type="radio" id="o6" name="o6">react<br>
+                <input type="radio" id="o7" name="o7">angular<br>
+                <input type="radio" id="o8" name="o8">Django<br>
+                <input type="radio" id="o9" name="o9">Spring<br>
+                <input type="radio" id="o10" name="o10">javascript<br>
+            </label>
+
+            <label for="feedback">Would you like to add any comment or feedback?</label><br>
+                <textarea name="comment" id="comment" 
+                placeholder="Enter your comment here">
+                </textarea><br><br><br>
+                <button type="submit" value="submit"> Submit </button>
+        </div>
+    </body>
+</html>
